@@ -1,6 +1,6 @@
-import { IDefaultTheme } from 'styled-components';
+import { DefaultTheme } from 'styled-components';
 
-const defaultTheme: IDefaultTheme = {
+const defaultTheme: DefaultTheme = {
   title: 'default',
   dark: '#000',
 };
