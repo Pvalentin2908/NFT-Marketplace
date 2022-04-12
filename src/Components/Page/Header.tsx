@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, NavbarBrand } from 'react-bootstrap';
 import cs from 'classnames';
 import s from './style.module.scss';
 import Logo from './assets/logo.png';
@@ -8,33 +8,31 @@ import Wallet from './assets/wallet-one.png';
 
 export default function Header(): ReactElement {
   return (
-    <div className={cs(s.fontHeader, 'd-flex justify-content-center flex-row')}>
+    <div className={cs(s.fontHeader, '')}>
       <Navbar expand="lg">
-        <Container className=" align-items-start d-flex justify-content-center flex-row">
-          <div>
+        <Container className="d-flex flex-row justify-content-between">
+          <div className="d-flex flex-row justify-content-between">
             <Navbar.Brand href="#home ">
-              <img src={Logo} alt="Logo" />
+              <div>
+                <img src={Logo} alt="Logo" />
+              </div>
             </Navbar.Brand>
-          </div>
-          <div>
-            <Navbar.Brand href="#search">
-              <div className="container">
-                <div className="row height d-flex justify-content-center align-items-center">
-                  <div className="col-md-6">
-                    <div className="form">
-                      {' '}
-                      <i className="fa-search" />
-                      <input
-                        type="text"
-                        className="form-control form-input"
-                        placeholder="Search items, collections, and accounts"
-                      />
-                      <span className="left-pan">
-                        <i className="fa-microphone" />
-                      </span>
-                    </div>
-                  </div>
-                </div>
+            <Navbar.Brand>
+              <div
+                className={cs(
+                  s.borderSearch,
+                  'd-flex flex-row justify-content-between',
+                )}
+              >
+                <img src={Search} alt="Search" />
+                <form action="/action_page.php">
+                  <input
+                    type="search"
+                    id="gsearch"
+                    name="gsearch"
+                    placeholder="  Search items, collections, and accounts"
+                  />
+                </form>
               </div>
             </Navbar.Brand>
           </div>
@@ -44,7 +42,6 @@ export default function Header(): ReactElement {
                 <Nav.Link href="#link">Explore</Nav.Link>
                 <Nav.Link href="#link">Activity</Nav.Link>
                 <Nav.Link href="#link">Resources</Nav.Link>
-                <Nav.Link href="#link">About us</Nav.Link>
                 <Nav.Link href="#link">
                   <button type="button" className={cs(s.textButton)}>
                     Account

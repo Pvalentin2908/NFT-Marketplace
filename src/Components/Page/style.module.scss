@@ -1,7 +1,7 @@
 .textButton {
   background: rgba(31, 29, 43, 0.12);
   color: white;
-  border: 10px;
+  border: 2px linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
   box-sizing: border-box;
   border-radius: 90px;
 }
@@ -24,7 +24,7 @@
   color: white;
   height: 100%;
   width: 100%;
-}
+ }
 
 .cardServices {
   color: white;
@@ -34,4 +34,9 @@
 
 .textFooter {
   color: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+}
+
+.borderSearch {
+  border: 2px;
+  border-radius: 90px;
 }

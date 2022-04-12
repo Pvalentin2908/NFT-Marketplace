@@ -11,76 +11,95 @@ import Youtube from './assets/youtube.png';
 
 export default function Footer(): ReactElement {
   return (
-    <div
-      className={cs(s.cardFooter, 'd-flex flex-row justify-content-between')}
-    >
+    <div className={cs(s.cardFooter, ' ')}>
       <div className="container d-flex flex-row justify-content-between align-items text-white">
-        <div className="d-flex flex-column align-items-center align-items-lg-start">
-          <div className="mb-1">
+        <div className="d-flex flex-column justify-content-between align-items-start">
+          <div className=" ">
             <img src={Logo} alt="Logo" />
           </div>
-          <div className="text-center text-lg-start">
+          <div className="text-start">
             <h4>THEFUND</h4>
           </div>
-          <div className="text-center text-lg-start mb-3">
+          <div className="text-start">
             TheFund is the world s first non-fungible token (NFT) marketplace
             for both digital and physical assets
           </div>
         </div>
-        <div className="d-flex flex-column align-items-center align-items-lg-start  py-5 px-2 px-lg-5">
-          <div className="mb-3">
+        <div className="d-flex flex-column justify-content-between align-items-start  py-5 px-5">
+          <div className="mb-2">
             <b className={cs(s.textFooter)}>Company</b>
           </div>
-          <div className="mb-2">
-            <a href="#link"> About</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              {' '}
+              About
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Careers</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Careers
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Ventures</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Ventures
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Grants</a>
+          <div className="mb-1">
+            <a href="#link" className="text-white">
+              Grants
+            </a>
           </div>
         </div>
-        <div className="d-flex flex-column align-items-center align-items-lg-start  py-5 px-2 px-lg-5">
-          <div className="mb-3">
+        <div className="d-flex flex-column justify-content-between align-items-start  py-5 px-5">
+          <div className="mb-2">
             <b className={cs(s.textFooter)}>Stats</b>
           </div>
-          <div className="mb-2">
-            <a href="#link">Rankings</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Rankings
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Activity</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Activity
+            </a>
           </div>
         </div>
-        <div className="d-flex flex-column align-items-center align-items-lg-start  py-5 px-2 px-lg-5">
-          <div className="mb-3">
+        <div className="d-flex flex-column justify-content-between align-items-start  py-5 px-5">
+          <div className="mb-2">
             <b className={cs(s.textFooter)}>Resources</b>
           </div>
-          <div className="mb-2">
-            <a href="#link">Help center</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Help center
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Gas-Free Marketplace</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Gas-Free Marketplace
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Blog</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Blog
+            </a>
           </div>
-          <div className="mb-2">
-            <a href="#link">Newsletters</a>
+          <div className="mb-1 text-white">
+            <a href="#link" className="text-white">
+              Newsletters
+            </a>
           </div>
         </div>
-        <div className="d-flex flex-column align-items-center align-items-lg-start  py-5 px-2 px-lg-5">
-          <div className="mb-3">
+        <div className="d-flex flex-column justify-content-between align-items-start  py-5 px-5">
+          <div className="mb-2">
             <b className={cs(s.textFooter)}>Follow us on</b>
           </div>
-          <div className="d-flex flex-row justify-content-between flex-wrap">
+          <div className="d-flex flex-row justify-content-between">
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-column justify-content-between p-4 align-items-center align-items-lg-start',
+                'd-flex flex-row justify-content-between p-2 align-items-start',
               )}
             >
               <img src={Vector} alt="logo" />
@@ -88,7 +107,7 @@ export default function Footer(): ReactElement {
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-column justify-content-between p-4 align-items-center align-items-lg-start',
+                'd-flex flex-row justify-content-between p-2 align-items-start',
               )}
             >
               <img src={Twitter} alt="logo" />
@@ -96,17 +115,17 @@ export default function Footer(): ReactElement {
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-column justify-content-between p-4 align-items-center align-items-lg-start',
+                'd-flex flex-row justify-content-between p-2 align-items-start',
               )}
             >
               <img src={Youtube} alt="logo" />
             </div>
           </div>
-          <div className="d-flex flex-row justify-content-between mt-5 flex-wrap">
+          <div className="d-flex flex-row justify-content-between mt-2">
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-column justify-content-between p-4 align-items-center align-items-lg-start',
+                'd-flex flex-row justify-content-between p-2 align-items-start',
               )}
             >
               <img src={Facebook} alt="logo" />
@@ -114,7 +133,7 @@ export default function Footer(): ReactElement {
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-column justify-content-between p-4 align-items-center align-items-lg-start',
+                'd-flex flex-row justify-content-between p-2 align-items-start',
               )}
             >
               <img src={Instagram} alt="logo" />
@@ -122,7 +141,7 @@ export default function Footer(): ReactElement {
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-column justify-content-between p-4 align-items-center align-items-lg-start',
+                'd-flex flex-row justify-content-between p-2 align-items-start',
               )}
             >
               <img src={TikTok} alt="logo" />
