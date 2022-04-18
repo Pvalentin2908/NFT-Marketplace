@@ -16,13 +16,8 @@ type PropType = {
 export default function AppSkeleton(prop: PropType): ReactElement {
   return (
     <>
-      <div className="">
+      <div className={cs(s.Background)}>
         <Header />
-        <img
-          src={Logo}
-          alt="Logo"
-          className={(cs(s.Logo), 'd-flex flex-row justify-content-end')}
-        />
         <Exclusive />
         <div className="">{prop.children}</div>
         <Footer />

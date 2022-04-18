@@ -12,13 +12,13 @@
 }
 
 .fontHeader {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  background: rgba(31, 29, 43, 0.12);
   backdrop-filter: blur(45px);
 }
 
 .cardFooter {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
-  backdrop-filter: blur(10px);
+  background: rgba(31, 29, 43, 0.1);
+  backdrop-filter: blur(4px);
   color: white;
   height: 100%;
   width: 100%;
@@ -54,5 +54,4 @@
 
 .cardExclusive {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
 }
