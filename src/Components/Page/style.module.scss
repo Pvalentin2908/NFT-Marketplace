@@ -55,3 +55,32 @@
 .cardExclusive {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.createButton {
+  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  color: white;
+  border: 10px;
+  border-radius: 90px;
+  width: 20%;
+}
+
+.ellipsGems1 {
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  top: 100%;
+}
+
+.ellipsGems2 {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 100%;
+}
+
+.ellipsGems3 {
+  position: absolute;
+  left: 80%;
+  right: 80%;
+  top: 100%;
+}

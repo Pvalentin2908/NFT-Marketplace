@@ -6,6 +6,7 @@ import s from './style.module.scss';
 import Header from '../Page/Header';
 import Footer from '../Page/Footer';
 import Exclusive from '../Page/Exclusive';
+import Gems from '../Page/Gems';
 
 import Logo from '../Page/assets/10.png';
 
@@ -19,6 +20,7 @@ export default function AppSkeleton(prop: PropType): ReactElement {
       <div className={cs(s.Background)}>
         <Header />
         <Exclusive />
+        <Gems />
         <div className="">{prop.children}</div>
         <Footer />
       </div>
