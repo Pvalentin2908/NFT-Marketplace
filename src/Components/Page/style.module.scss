@@ -98,3 +98,37 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.cardCollections {
+  border-radius: 31.2016px;
+  border: 2px solid rgba(229, 233, 246, 0.4);
+  width: 100%;
+  position: relative;
+}
+
+.articleCard {
+  color: white;
+  border-radius: 30px;
+  border: 2px solid rgba(229, 233, 246, 0.4);
+  align-self: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.lineColor {
+  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  border-radius: 5px;
+  width: 255.71px;
+  height: 2px;
+}
+
+.createButton2 {
+  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  color: white;
+  border: 10px;
+  border-radius: 90px;
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+}

@@ -7,6 +7,9 @@ import Header from '../Page/Header';
 import Footer from '../Page/Footer';
 import Exclusive from '../Page/Exclusive';
 import Gems from '../Page/Gems';
+import Collections from '../Page/Collections';
+import Create from '../Page/Create';
+import Discover from '../Page/Discover';
 
 import Logo from '../Page/assets/10.png';
 
@@ -21,6 +24,9 @@ export default function AppSkeleton(prop: PropType): ReactElement {
         <Header />
         <Exclusive />
         <Gems />
+        <Collections />
+        <Create />
+        <Discover />
         <div className="">{prop.children}</div>
         <Footer />
       </div>

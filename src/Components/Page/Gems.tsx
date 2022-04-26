@@ -10,8 +10,13 @@ import Elips from './assets/Ellipse1.png';
 export default function Gems(): ReactElement {
   return (
     <div className="container mb-5">
-      <div className="text-white mb-4 mt-5">
+      <div className="d-flex flex-row justify-content-between text-white mb-4 mt-5">
         <h3>Hidden Gems</h3>
+        <div className="">
+          <a href="#link" className={cs(s.textFooter)}>
+            View All
+          </a>
+        </div>
       </div>
       <div className="d-flex flex-row justify-content-between">
         <div
