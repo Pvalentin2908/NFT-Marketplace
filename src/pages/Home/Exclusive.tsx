@@ -6,7 +6,7 @@ import Button from './assets/Buttonx.svg';
 
 export default function Exclusive(): ReactElement {
   return (
-    <div className={cs(s.cardExclusive, '')}>
+    <div className={cs(s.cardExclusive, 'position-relative')}>
       <div className="container">
         <div className={cs(s.opacity, '')}>
           Exclusive NFT for Digital and Real-world Assets
@@ -29,6 +29,12 @@ export default function Exclusive(): ReactElement {
           <img src={Play} alt="Play" />
           <div className="text-white">Learn more about TheFund</div>
         </div>
+      </div>
+      <div className={cs(s.ellipseRightBox, 'position-absolute')}>
+        <div className={s.ellipseRight} />
+      </div>
+      <div className={cs(s.ellipseLeftBox, 'position-absolute')}>
+        <div className={s.ellipseLeft} />
       </div>
     </div>
   );

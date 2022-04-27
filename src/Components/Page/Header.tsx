@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Navbar, Container, Nav, NavbarBrand } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import cs from 'classnames';
 import s from './style.module.scss';
 import Logo from './assets/logo.png';

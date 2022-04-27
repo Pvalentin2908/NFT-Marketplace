@@ -53,8 +53,8 @@ export default function Gems(): ReactElement {
             'd-flex flex-column justify-content-between p-4 align-items-center mx-4 h-100',
           )}
         >
-          <div>
-            {/* <img src={Elips} alt="Elips" className={cs(s.ellipsGems1, '')} /> */}
+          <div className="position-relative mb-4">
+            <img src={Elips} alt="Elips" className={cs(s.ellipsGems1, '')} />
             <img
               src={Rectangle2}
               alt="Rectangle2"
