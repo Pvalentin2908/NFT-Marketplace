@@ -8,7 +8,7 @@ export default function Exclusive(): ReactElement {
   return (
     <div className={cs(s.cardExclusive, '')}>
       <div className="container">
-        <div className="text-white">
+        <div className={cs(s.opacity, '')}>
           Exclusive NFT for Digital and Real-world Assets
         </div>
         <div className="text-white">
@@ -17,7 +17,7 @@ export default function Exclusive(): ReactElement {
             digital and physical assets.
           </h3>
         </div>
-        <div className="d-flex flex-row justify-content-start">
+        <div className="d-flex flex-row justify-content-start mt-4">
           <button type="button" className={cs(s.textButton, 'mx-3 w-10 h-10')}>
             <img src={Button} alt="Button" />
           </button>
@@ -25,7 +25,7 @@ export default function Exclusive(): ReactElement {
             Create
           </button>
         </div>
-        <div className="d-flex flex-row justify-content-start">
+        <div className="d-flex flex-row justify-content-start mt-5">
           <img src={Play} alt="Play" />
           <div className="text-white">Learn more about TheFund</div>
         </div>

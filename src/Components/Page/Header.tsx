@@ -59,7 +59,7 @@ export default function Header(): ReactElement {
                   </div>
                 </Nav.Link>
                 <Nav.Link href="#link">
-                  <button type="button" className={cs(s.walletButton, '')}>
+                  <button type="button" className={cs(s.walletButton, ' ')}>
                     <img src={Wallet} alt="Wallet" />
                     Connect Wallet
                   </button>
