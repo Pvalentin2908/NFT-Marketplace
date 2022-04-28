@@ -6,6 +6,8 @@ import Rectangle2 from './assets/Rectangle2.png';
 import Rectangle3 from './assets/Rectangle3.png';
 import Bif from './assets/Bifa.png';
 import Elips from './assets/Ellipse1.png';
+import Elips2 from './assets/Ellipse10.png';
+import Elips3 from './assets/Ellipse11.png';
 
 export default function Gems(): ReactElement {
   return (
@@ -25,8 +27,8 @@ export default function Gems(): ReactElement {
             'd-flex flex-column justify-content-between p-4 align-items-center mx-4 h-100',
           )}
         >
-          <div>
-            {/* <img src={Elips} alt="Elips" className={cs(s.ellipsGems1, '')} /> */}
+          <div className="position-relative mb-5">
+            <img src={Elips} alt="Elips" className={cs(s.ellipsGems, '')} />
             <img
               src={Rectangle1}
               alt="Rectangle1"
@@ -53,8 +55,8 @@ export default function Gems(): ReactElement {
             'd-flex flex-column justify-content-between p-4 align-items-center mx-4 h-100',
           )}
         >
-          <div className="position-relative mb-4">
-            <img src={Elips} alt="Elips" className={cs(s.ellipsGems1, '')} />
+          <div className="position-relative mb-5">
+            <img src={Elips2} alt="Elips" className={cs(s.ellipsGems, '')} />
             <img
               src={Rectangle2}
               alt="Rectangle2"
@@ -81,8 +83,8 @@ export default function Gems(): ReactElement {
             'd-flex flex-column justify-content-between p-4 align-items-center mx-4 h-100',
           )}
         >
-          <div>
-            {/* <img src={Elips} alt="Elips" className={cs(s.ellipsGems1, '')} /> */}
+          <div className="position-relative mb-5">
+            <img src={Elips3} alt="Elips" className={cs(s.ellipsGems, '')} />
             <img
               src={Rectangle3}
               alt="Rectangle3"

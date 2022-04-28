@@ -68,25 +68,11 @@
   width: 20%;
 }
 
-.ellipsGems1 {
+.ellipsGems {
   position: absolute;
   left: 42%;
   right: 40%;
-  top: 80%;
-}
-
-.ellipsGems2 {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 100%;
-}
-
-.ellipsGems3 {
-  position: absolute;
-  left: 80%;
-  right: 80%;
-  top: 100%;
+  top: 90%;
 }
 
 .classRectangle {
@@ -147,11 +133,11 @@
 
 .ellipseRightBox {
   top: -40px;
-  right: 10%;
+  right: 1%;
 }
 
 .ellipseLeft {
-  background: #5B68DF;
+  background: #5b68df;
   opacity: 0.5;
   filter: blur(209px);
   height: 925px;
@@ -160,5 +146,20 @@
 
 .ellipseLeftBox {
   top: 300%;
-  left: 10%;
+  left: 1%;
+}
+
+.ellipseRightBox2 {
+  top: 700%;
+  right: 1%;
+}
+
+.ellipseLeftBox2 {
+  top: 850%;
+  left: 1%;
+}
+
+.ballPosition {
+  top: -40px;
+  right: 1%;
 }

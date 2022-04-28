@@ -12,7 +12,7 @@ export default function Create(): ReactElement {
       <div className="text-white">
         <h3>Create and sell your NFTs</h3>
       </div>
-      <div className="d-flex flex-row justify-content-between">
+      <div className="d-flex flex-row justify-content-between container">
         <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">
           <div className="w-50 h-50 justify-content-center align-items-center">
             <img src={Wallet} alt="Wallet" />
