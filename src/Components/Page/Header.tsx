@@ -3,13 +3,13 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import cs from 'classnames';
 import s from './style.module.scss';
 import Logo from './assets/logo.png';
-import Search from './assets/search.png';
+import Search from './assets/search.svg';
 import Wallet from './assets/wallet-one.png';
 import Frame from './assets/Frame 1.svg';
 
 export default function Header(): ReactElement {
   return (
-    <div className={cs(s.fontHeader, '')}>
+    <div className={cs(s.fontHeader, 'position-relative zIndex4')}>
       <Navbar expand="lg">
         <Container className="d-flex flex-row justify-content-between">
           <div className="d-flex flex-row justify-content-between col-4">
@@ -24,7 +24,9 @@ export default function Header(): ReactElement {
                 'd-flex flex-row justify-content-between col-12',
               )}
             >
-              <img src={Search} alt="Search" />
+              <div className={s.search}>
+                <img src={Search} alt="Search" />
+              </div>
               <form
                 action="/action_page.php"
                 className={cs(s.borderSearch, 'col-12')}
@@ -59,9 +61,14 @@ export default function Header(): ReactElement {
                   </div>
                 </Nav.Link>
                 <Nav.Link href="#link">
-                  <button type="button" className={cs(s.walletButton, ' ')}>
-                    <img src={Wallet} alt="Wallet" />
-                    Connect Wallet
+                  <button
+                    type="button"
+                    className={cs(s.walletButton, 'px-4 py-1')}
+                  >
+                    <div className="d-flex flex-row justify-content-center allign-items-center">
+                      <img src={Wallet} alt="Wallet" />
+                      <div className="mx-2">Connect Wallet</div>
+                    </div>
                   </button>
                 </Nav.Link>
               </Nav>

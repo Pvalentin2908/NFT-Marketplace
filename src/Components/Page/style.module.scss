@@ -30,7 +30,7 @@
 
 .cardServices {
   color: white;
-  border-radius: 30px;
+  border-radius: 10px;
   border: 2px solid rgba(229, 233, 246, 0.4);
   width: 100%;
   align-self: center;
@@ -135,4 +135,9 @@
   width: 20%;
   height: 100%;
   padding: 10px;
+}
+
+.search {
+  height: 24px;
+  width: 24px;
 }

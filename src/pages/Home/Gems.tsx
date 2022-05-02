@@ -11,7 +11,7 @@ import Elips3 from './assets/Ellipse11.png';
 
 export default function Gems(): ReactElement {
   return (
-    <div className="container mb-5">
+    <div className="container mb-5 position-relative zIndex4">
       <div className="d-flex flex-row justify-content-between text-white mb-4 mt-5">
         <h3>Hidden Gems</h3>
         <div className="">

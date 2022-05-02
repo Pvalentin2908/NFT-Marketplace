@@ -3,10 +3,6 @@
   border: 0px;
 }
 
-.opacity {
-  opacity: 0.5;
-}
-
 .walletButton {
   background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
   color: white;
@@ -49,15 +45,10 @@
   border-color: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
 }
 
-// .backgroundButton {
-//   border-image-source: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%) !important;
-//   border-radius: 90px;
-//   border: 2px ;
-//   padding: 2px;
-// }
-
 .cardExclusive {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  overflow: visible;
+  margin-top: 220px;
 }
 
 .createButton {
@@ -65,7 +56,7 @@
   color: white;
   border: 10px;
   border-radius: 90px;
-  width: 20%;
+  min-width: 200px;
 }
 
 .ellipsGems {
@@ -162,4 +153,6 @@
 .ballPosition {
   top: -40px;
   right: 1%;
+  z-index: 2;
 }
+
