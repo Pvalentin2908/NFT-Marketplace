@@ -26,6 +26,8 @@
   color: white;
   height: 100%;
   width: 100%;
+  margin-bottom: 93px;
+  margin-top: 31px;
 }
 
 .cardServices {
@@ -46,15 +48,9 @@
 .borderSearch {
   border: 1px;
   border-radius: 90px;
-  border-color: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  border-style: solid;
+  background: transparent;
 }
-
-// .backgroundButton {
-//   border-image-source: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%) !important;
-//   border-radius: 90px;
-//   border: 2px ;
-//   padding: 2px;
-// }
 
 .cardExclusive {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));

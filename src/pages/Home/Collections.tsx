@@ -21,7 +21,7 @@ import Vector2 from './assets/Vector2.png';
 
 export default function Collections(): ReactElement {
   return (
-    <div className="container">
+    <div className={cs(s.marginBottom128, 'container')}>
       <div className="d-flex flex-row justify-content-between text-white mb-4 mt-5">
         <h3>Top collections</h3>
         <div className="">
@@ -35,21 +35,38 @@ export default function Collections(): ReactElement {
           <div className={s.imgArticleCard}>
             <img src={Rectangle6} alt="Rectangle6" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse2} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>World of Women Galaxy</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By Organization Woman</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse2} alt="Ellipse2" />
+              </div>
+              <div className="d-flex flex-column justify-content-between">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-between">
+                  <div className="mb-0 font-10">By Organization Woman</div>
+                  <div>
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>0.218 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
@@ -209,6 +226,9 @@ export default function Collections(): ReactElement {
             </div>
           </div>
         </div>
+      </div>
+      <div className={cs(s.rectangleBox, 'position-absolute')}>
+        <div className={s.rectangle} />
       </div>
     </div>
   );

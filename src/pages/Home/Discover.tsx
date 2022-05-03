@@ -11,13 +11,23 @@ export default function Discover(): ReactElement {
           The NFT marketplace with everything for everyone
         </h6>
       </div>
-      <div className="d-flex flex-column justify-content-center align-items-center mt-3">
+      <div
+        className={cs(
+          s.marginBottom64,
+          'd-flex flex-column justify-content-center align-items-center mt-3',
+        )}
+      >
         <video width="850px" height="450px" controls>
           <source src="/public/movie.mp4" type="video/mp4" />
           <track default kind="captions" src="./public/movie.mp4" />
         </video>
       </div>
-      <div className="d-flex flex-column justify-content-center align-items-center mt-3 mb-5 text-white">
+      <div
+        className={cs(
+          s.marginBottom128,
+          'd-flex flex-column justify-content-center align-items-center text-white',
+        )}
+      >
         <button type="button" className={s.createButton2}>
           Explore the marketplace
         </button>

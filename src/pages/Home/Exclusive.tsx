@@ -13,13 +13,18 @@ export default function Exclusive(): ReactElement {
           <div className="text-white mt-5">
             Exclusive NFT for Digital and Real-world Assets
           </div>
-          <div className="text-white">
+          <div className={cs(s.marginBottom64, 'text-white')}>
             <h3>
               The world s first non-fungible token (NFT) marketplace for both
               digital and physical assets.
             </h3>
           </div>
-          <div className="d-flex flex-row justify-content-start mt-4 mb-5 ">
+          <div
+            className={cs(
+              s.marginBottom154,
+              'd-flex flex-row justify-content-start',
+            )}
+          >
             <button
               type="button"
               className={cs(s.textButton, 'mx-3 w-10 h-10')}
@@ -30,7 +35,12 @@ export default function Exclusive(): ReactElement {
               Create
             </button>
           </div>
-          <div className="d-flex flex-row justify-content-start mt-5 mb-5">
+          <div
+            className={cs(
+              s.marginBottom98,
+              'd-flex flex-row justify-content-start',
+            )}
+          >
             <img src={Play} alt="Play" />
             <div className="text-white mx-2">Learn more about TheFund</div>
           </div>

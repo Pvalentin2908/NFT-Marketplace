@@ -8,11 +8,16 @@ import Picture2 from './assets/picture.png';
 
 export default function Create(): ReactElement {
   return (
-    <div className="container">
-      <div className="text-white">
+    <div className={cs(s.backgroundCreate, 'container')}>
+      <div className={cs(s.marginBottom64, 'text-white')}>
         <h3>Create and sell your NFTs</h3>
       </div>
-      <div className="d-flex flex-row justify-content-between container">
+      <div
+        className={cs(
+          s.marginBottom221,
+          'd-flex flex-row justify-content-between container',
+        )}
+      >
         <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">
           <div className="w-50 h-50 justify-content-center align-items-center">
             <img src={Wallet} alt="Wallet" />

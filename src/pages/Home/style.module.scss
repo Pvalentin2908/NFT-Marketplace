@@ -100,7 +100,7 @@
 .lineColor {
   background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
   border-radius: 5px;
-  width: 255.71px;
+  width: 100%;
   height: 2px;
 }
 
@@ -136,17 +136,17 @@
 }
 
 .ellipseLeftBox {
-  top: 300%;
+  top: 200%;
   left: 1%;
 }
 
 .ellipseRightBox2 {
-  top: 700%;
+  top: 400%;
   right: 1%;
 }
 
 .ellipseLeftBox2 {
-  top: 850%;
+  top: 600%;
   left: 1%;
 }
 
@@ -156,3 +156,34 @@
   z-index: 2;
 }
 
+.marginBottom64 {
+  margin-bottom: 64px;
+}
+
+.marginBottom154 {
+  margin-bottom: 154px;
+}
+
+.marginBottom98 {
+  margin-bottom: 98px;
+}
+
+.marginBottom128 {
+  margin-bottom: 128px;
+}
+.marginBottom221 {
+  margin-bottom: 221px;
+}
+
+.backgroundCreate {
+  backdrop-filter: blur(400px);
+}
+
+.rectangle {
+  background: #252836;
+}
+
+.radiusBottom {
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+}

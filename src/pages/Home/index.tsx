@@ -21,7 +21,9 @@ const Home = () => {
         <Exclusive />
         <Gems />
         <Collections />
-        <Create />
+        <div className={s.backgroundCreate}>
+          <Create />
+        </div>
         <Discover />
       </div>
     </AppSkeleton>

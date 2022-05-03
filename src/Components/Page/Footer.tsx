@@ -11,7 +11,7 @@ import Youtube from './assets/youtube.png';
 
 export default function Footer(): ReactElement {
   return (
-    <div className={cs(s.cardFooter, ' ')}>
+    <div className={s.cardFooter}>
       <div className="container d-flex flex-row justify-content-start align-items text-white">
         <div className="d-flex flex-column justify-content-start align-items-start">
           <div className="mb-2">

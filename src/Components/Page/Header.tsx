@@ -12,7 +12,7 @@ export default function Header(): ReactElement {
     <div className={cs(s.fontHeader, 'position-relative zIndex4')}>
       <Navbar expand="lg">
         <Container className="d-flex flex-row justify-content-between">
-          <div className="d-flex flex-row justify-content-between col-4">
+          <div className="d-flex flex-row justify-content-between col-4 align-items-center">
             <Navbar.Brand href="#home ">
               <div>
                 <img src={Logo} alt="Logo" />
@@ -41,16 +41,25 @@ export default function Header(): ReactElement {
               </form>
             </div>
           </div>
-          <div>
+          <div className=" d-flex flex-row justify-content-center align-items-center">
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#link" className="text-white">
+                <Nav.Link
+                  href="#link"
+                  className="text-white d-flex flex-row justify-content-center align-items-center"
+                >
                   Explore
                 </Nav.Link>
-                <Nav.Link href="#link" className="text-white">
+                <Nav.Link
+                  href="#link"
+                  className="text-white d-flex flex-row justify-content-center align-items-center"
+                >
                   Activity
                 </Nav.Link>
-                <Nav.Link href="#link" className="text-white">
+                <Nav.Link
+                  href="#link"
+                  className="text-white d-flex flex-row justify-content-center align-items-center"
+                >
                   Resources
                 </Nav.Link>
                 <Nav.Link href="#link">

@@ -20,7 +20,12 @@ export default function Gems(): ReactElement {
           </a>
         </div>
       </div>
-      <div className="d-flex flex-row justify-content-between">
+      <div
+        className={cs(
+          s.marginBottom128,
+          'd-flex flex-row justify-content-between',
+        )}
+      >
         <div
           className={cs(
             s.cardServices,
