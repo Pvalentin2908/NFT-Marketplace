@@ -45,11 +45,11 @@ export default function Collections(): ReactElement {
               <div>
                 <img src={Ellipse2} alt="Ellipse2" />
               </div>
-              <div className="d-flex flex-column justify-content-between">
+              <div className="d-flex flex-column justify-content-between align-items-start">
                 <h6 className="font-14">World of Women Galaxy</h6>
-                <div className="d-flex flex-row justify-content-between">
-                  <div className="mb-0 font-10">By Organization Woman</div>
-                  <div>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
                     <img src={Vector2} alt="Vector2" />
                   </div>
                 </div>
@@ -72,157 +72,276 @@ export default function Collections(): ReactElement {
         </div>
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle7} alt="Rectangle6" />
+            <img src={Rectangle7} alt="Rectangle7" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse3} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Azuki #958</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By Azuki</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse3} alt="Ellipse3" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>0.587 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle8} alt="Rectangle6" />
+            <img src={Rectangle8} alt="Rectangle8" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse4} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Yolk Folks</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">Fufu Prophet</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse4} alt="Ellipse4" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>1.048 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle9} alt="Rectangle6" />
+            <img src={Rectangle9} alt="Rectangle9" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse5} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Earth Mooncake</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By Mooncake</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse5} alt="Ellipse5" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>2.756 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="d-flex flex-row justify-content-between mb-5 mt-4">
+      <div className="d-flex flex-row justify-content-between mt-4">
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle10} alt="Rectangle6" />
+            <img src={Rectangle10} alt="Rectangle10" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse6} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Corrupt Floppy Disk</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By The Transmission Items</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse6} alt="Ellipse6" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>0.218 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle11} alt="Rectangle6" />
+            <img src={Rectangle11} alt="Rectangle11" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse7} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Ape Episode #128</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By Bored Ape Yacht Club</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse7} alt="Ellipse7" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>2.756 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle12} alt="Rectangle6" />
+            <img src={Rectangle12} alt="Rectangle12" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse8} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Neo R #028</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By Watari</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse8} alt="Ellipse8" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>0.586 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>
         <div className={cs(s.articleCard, 'me-4 ')}>
           <div className={s.imgArticleCard}>
-            <img src={Rectangle13} alt="Rectangle6" />
+            <img src={Rectangle13} alt="Rectangle13" />
           </div>
-          <div className="d-flex flex-row justify-content-center">
-            <img src={Ellipse9} alt="Ellipse2" />
-            <div className="d-flex flex-column justify-content-start">
-              <h6>Yact Mutant Academy</h6>
-              <div className="d-flex flex-row justify-content-start">
-                <div className="mb-0">By Mutant Ape Yacht Club</div>
-                <img src={Vector2} alt="Vector2" />
+          <div className="px-3 pb-3">
+            <div
+              className={cs(
+                s.rectangle,
+                'd-flex flex-row justify-content-between p-2',
+              )}
+            >
+              <div>
+                <img src={Ellipse9} alt="Ellipse9" />
+              </div>
+              <div className="d-flex flex-column justify-content-between align-items-start">
+                <h6 className="font-14">World of Women Galaxy</h6>
+                <div className="d-flex flex-row justify-content-start">
+                  <div className="font-10 mx-2">By Organization Woman</div>
+                  <div className="d-flex flex-row justify-content-start">
+                    <img src={Vector2} alt="Vector2" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={cs(s.lineColor, 'mb-3')} />
-          <div className="justify-content-between">
-            <div className="mx-3">Price</div>
-            <div className="mx-3">
-              <h6>1.048 ETH</h6>
+            <div className={cs(s.lineColor, '')} />
+            <div
+              className={cs(
+                s.rectangle,
+                s.radiusBottom,
+                'justify-content-between',
+              )}
+            >
+              <div className="mx-3">Price</div>
+              <div className="mx-3">
+                <h6>0.218 ETH</h6>
+              </div>
             </div>
           </div>
         </div>

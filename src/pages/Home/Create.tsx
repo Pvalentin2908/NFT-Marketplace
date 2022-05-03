@@ -8,7 +8,7 @@ import Picture2 from './assets/picture.png';
 
 export default function Create(): ReactElement {
   return (
-    <div className={cs(s.backgroundCreate, 'container')}>
+    <div className="container">
       <div className={cs(s.marginBottom64, 'text-white')}>
         <h3>Create and sell your NFTs</h3>
       </div>

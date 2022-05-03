@@ -25,13 +25,12 @@ export default function Footer(): ReactElement {
             for both digital and physical assets
           </div>
         </div>
-        <div className="d-flex flex-column justify-content-between align-items-start  py-4 px-4">
+        <div className="d-flex flex-column justify-content-between align-items-start py-4 px-4">
           <div className="mb-2">
             <b className={cs(s.textFooter)}>Company</b>
           </div>
           <div className="mb-1 text-white">
             <a href="#link" className="text-white">
-              {' '}
               About
             </a>
           </div>
@@ -99,10 +98,12 @@ export default function Footer(): ReactElement {
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
+                'd-flex flex-row justify-content-between p-2 align-items-center mx-4',
               )}
             >
-              <img src={Vector} alt="logo" />
+              <a href="#link" className="text-white">
+                <img src={Vector} alt="logo" />
+              </a>
             </div>
             <div
               className={cs(
@@ -110,7 +111,9 @@ export default function Footer(): ReactElement {
                 'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
               )}
             >
-              <img src={Twitter} alt="logo" />
+              <a href="#link" className="text-white">
+                <img src={Twitter} alt="logo" />
+              </a>
             </div>
             <div
               className={cs(
@@ -118,7 +121,9 @@ export default function Footer(): ReactElement {
                 'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
               )}
             >
-              <img src={Youtube} alt="logo" />
+              <a href="#link" className="text-white">
+                <img src={Youtube} alt="logo" />
+              </a>
             </div>
           </div>
           <div className="d-flex flex-row justify-content-between mt-2">
@@ -128,7 +133,9 @@ export default function Footer(): ReactElement {
                 'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
               )}
             >
-              <img src={Facebook} alt="logo" />
+              <a href="#link" className="text-white">
+                <img src={Facebook} alt="logo" />
+              </a>
             </div>
             <div
               className={cs(
@@ -136,15 +143,19 @@ export default function Footer(): ReactElement {
                 'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
               )}
             >
-              <img src={Instagram} alt="logo" />
+              <a href="#link" className="text-white">
+                <img src={Instagram} alt="logo" />
+              </a>
             </div>
             <div
               className={cs(
                 s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
+                'd-flex flex-row justify-content-between p-2 align-items-center mx-4',
               )}
             >
-              <img src={TikTok} alt="logo" />
+              <a href="#link" className="text-white">
+                <img src={TikTok} alt="logo" />
+              </a>
             </div>
           </div>
         </div>
