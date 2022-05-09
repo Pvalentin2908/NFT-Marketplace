@@ -4,7 +4,7 @@ import cs from 'classnames';
 import s from './style.module.scss';
 
 import AppSkeleton from '../../Components/AppSkeleton/AppSkeleton';
-import CollectionsSection from './Collections';
+import Collections from './Collections';
 import Create from './Create';
 import Discover from './Discover';
 import Exclusive from './Exclusive';
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         <Exclusive />
         <Gems />
-        <CollectionsSection />
+        <Collections />
         <div className={s.backgroundCreate}>
           <Create />
         </div>
