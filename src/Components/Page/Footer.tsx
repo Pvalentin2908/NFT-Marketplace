@@ -30,22 +30,22 @@ export default function Footer(): ReactElement {
             <b className={cs(s.textFooter)}>Company</b>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               About
             </a>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Careers
             </a>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Ventures
             </a>
           </div>
           <div className="mb-1">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Grants
             </a>
           </div>
@@ -55,12 +55,12 @@ export default function Footer(): ReactElement {
             <b className={cs(s.textFooter)}>Stats</b>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Rankings
             </a>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Activity
             </a>
           </div>
@@ -70,22 +70,22 @@ export default function Footer(): ReactElement {
             <b className={cs(s.textFooter)}>Resources</b>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Help center
             </a>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Gas-Free Marketplace
             </a>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Blog
             </a>
           </div>
           <div className="mb-1 text-white">
-            <a href="#link" className="text-white">
+            <a href="#link" className="text-white decoration-none">
               Newsletters
             </a>
           </div>

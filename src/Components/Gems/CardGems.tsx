@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import cs from 'classnames';
 import s from '../../pages/Home/style.module.scss';
-import Vector2 from '../../pages/Home/assets/Vector2.png';
+import Vector3 from '../../pages/Home/assets/vector3.png';
 
 type cardType = {
   coverImg: string;
@@ -22,7 +22,7 @@ export default function card({
     <div
       className={cs(
         s.marginBottom128,
-        'd-flex flex-row justify-content-between',
+        'd-flex flex-row justify-content-between mx-4 text-justify',
       )}
     >
       <div
@@ -41,11 +41,16 @@ export default function card({
         </div>
         <div className="d-flex flex-row justify-content-start">
           <h5 className="text-white">{title}</h5>
-          <img src={Vector2} alt="Bifa" />
+          <div
+            className="d-flex flex-row justify-content-start align-items-center mt-1 mx-2"
+            style={{ width: '23px', height: '23px' }}
+          >
+            <img src={Vector3} alt="Vector3" />
+          </div>
         </div>
         <div className="d-flex flex-row">
           Created by
-          <p className={cs(s.created, '')}>{author}</p>
+          <p className={cs(s.created, 'ms-1')}>{author}</p>
         </div>
         <div className="text-white">{descript}</div>
       </div>

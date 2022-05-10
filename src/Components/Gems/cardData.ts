@@ -11,7 +11,7 @@ export const cardData = [
   {
     id: 2,
     coverImg: 'Rectangle2.png',
-    authorImg: 'Ellipse2.png',
+    authorImg: 'Ellipse10.png',
     title: 'Meta Bounty Hunters',
     author: 'B30898',
     descript:
@@ -20,7 +20,7 @@ export const cardData = [
   {
     id: 3,
     coverImg: 'Rectangle3.png',
-    authorImg: 'Ellipse3.png',
+    authorImg: 'Ellipse11.png',
     title: 'Treeverse Plots',
     author: 'Treeverse_Wallet',
     descript:
