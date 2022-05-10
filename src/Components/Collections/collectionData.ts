@@ -63,9 +63,8 @@ export const CollectionData = [
     authorLogo: 'Ellipse2.png',
     price: '0.218',
   },
-  ,
   {
-    id: 6,
+    id: 9,
     title: 'World of Women Galaxy',
     author: 'Organization Woman',
     coverImg: 'Rectangle6',
@@ -73,7 +72,7 @@ export const CollectionData = [
     price: '0.218',
   },
   {
-    id: 7,
+    id: 10,
     title: 'World of Women Galaxy',
     author: 'Organization Woman',
     coverImg: 'Rectangle6',
@@ -81,7 +80,7 @@ export const CollectionData = [
     price: '0.218',
   },
   {
-    id: 8,
+    id: 11,
     title: 'World of Women Galaxy',
     author: 'Organization Woman',
     coverImg: 'Rectangle6',
