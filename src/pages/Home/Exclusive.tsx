@@ -27,10 +27,10 @@ export default function Exclusive(): ReactElement {
           <div
             className={cs(
               s.marginBottom154,
-              'd-flex flex-column flex-lg-row justify-content-start',
+              'd-flex flex-column flex-lg-row justify-content-center justify-content-lg-start ',
             )}
           >
-            <div>
+            <div className="d-flex justify-content-center">
               <button
                 type="button"
                 className={cs(s.textButton, 'mx-0 mx-lg-3')}
@@ -38,7 +38,7 @@ export default function Exclusive(): ReactElement {
                 <img src={Button} alt="Button" />
               </button>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-center">
               <button type="button" className={cs(s.createButton, 'font-20')}>
                 Create
               </button>

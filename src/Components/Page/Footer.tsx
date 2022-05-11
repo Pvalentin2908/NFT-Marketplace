@@ -12,7 +12,7 @@ import Youtube from './assets/youtube.png';
 export default function Footer(): ReactElement {
   return (
     <div className={s.cardFooter}>
-      <div className="container d-flex flex-row justify-content-start align-items text-white">
+      <div className="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start align-items text-white">
         <div className="d-flex flex-column justify-content-start align-items-start">
           <div className="mb-2">
             <img src={Logo2} alt="Logo2" />

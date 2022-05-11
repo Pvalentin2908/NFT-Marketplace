@@ -5,7 +5,7 @@ import { cardData } from './cardData';
 
 export default function Gems(): ReactElement {
   return (
-    <div className="d-flex flex-row justify-content-between">
+    <div className="d-flex flex-row justify-content-between flex-wrap flex-md-nowrap">
       {cardData.map((card) => {
         return (
           <CardGems

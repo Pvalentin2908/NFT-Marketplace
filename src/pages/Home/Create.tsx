@@ -15,7 +15,7 @@ export default function Create(): ReactElement {
       <div
         className={cs(
           s.marginBottom221,
-          'd-flex flex-row justify-content-between container',
+          'd-flex flex-column flex-lg-row justify-content-between container',
         )}
       >
         <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">

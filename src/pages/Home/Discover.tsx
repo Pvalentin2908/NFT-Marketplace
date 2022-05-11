@@ -17,7 +17,7 @@ export default function Discover(): ReactElement {
           'd-flex flex-column justify-content-center align-items-center mt-3',
         )}
       >
-        <video width="850px" height="450px" controls>
+        <video width="100%" height="450px" controls>
           <source src="/public/movie.mp4" type="video/mp4" />
           <track default kind="captions" src="./public/movie.mp4" />
         </video>

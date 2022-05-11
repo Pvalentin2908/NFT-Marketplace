@@ -22,7 +22,7 @@ export default function card({
     <div
       className={cs(
         s.marginBottom128,
-        'd-flex flex-row justify-content-between mx-4 text-justify',
+        'd-flex flex-row justify-content-between mx-0 mx-lg-4 text-justify',
       )}
     >
       <div
