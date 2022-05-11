@@ -57,6 +57,9 @@
   border: 10px;
   border-radius: 90px;
   min-width: 200px;
+  max-width: 204px;
+  width: 100%;
+  padding: 16px;
 }
 
 .ellipsGems {
@@ -154,6 +157,7 @@
   top: -40px;
   right: 1%;
   z-index: 2;
+  display: block;
 }
 
 .marginBottom64 {
@@ -186,4 +190,14 @@
 .radiusBottom {
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .ballPosition {
+    display: none;
+  }
+
+  .createButton {
+    margin-top: 20px;
+  }
 }

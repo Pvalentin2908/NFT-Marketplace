@@ -21,7 +21,7 @@ export default function Header(): ReactElement {
             <div
               className={cs(
                 s.borderSearch,
-                'd-flex flex-row justify-content-between col-12',
+                'd-flex flex-row justify-content-between col-12 d-none d-lg-block',
               )}
             >
               <div className={s.search}>
@@ -42,6 +42,7 @@ export default function Header(): ReactElement {
             </div>
           </div>
           <div className=" d-flex flex-row justify-content-center align-items-center">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link

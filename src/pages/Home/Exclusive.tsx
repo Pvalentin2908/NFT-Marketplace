@@ -9,7 +9,12 @@ export default function Exclusive(): ReactElement {
   return (
     <>
       <div className={cs(s.cardExclusive, 'position-relative container')}>
-        <div className={cs(s.indexExclusive, 'col-6')}>
+        <div
+          className={cs(
+            s.indexExclusive,
+            'col-12 col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start',
+          )}
+        >
           <div className="text-white mt-5">
             Exclusive NFT for Digital and Real-world Assets
           </div>
@@ -22,18 +27,22 @@ export default function Exclusive(): ReactElement {
           <div
             className={cs(
               s.marginBottom154,
-              'd-flex flex-row justify-content-start',
+              'd-flex flex-column flex-lg-row justify-content-start',
             )}
           >
-            <button
-              type="button"
-              className={cs(s.textButton, 'mx-3 w-10 h-10')}
-            >
-              <img src={Button} alt="Button" />
-            </button>
-            <button type="button" className={cs(s.createButton)}>
-              Create
-            </button>
+            <div>
+              <button
+                type="button"
+                className={cs(s.textButton, 'mx-0 mx-lg-3')}
+              >
+                <img src={Button} alt="Button" />
+              </button>
+            </div>
+            <div className="d-flex justify-content-between">
+              <button type="button" className={cs(s.createButton, 'font-20')}>
+                Create
+              </button>
+            </div>
           </div>
           <div
             className={cs(
@@ -57,9 +66,6 @@ export default function Exclusive(): ReactElement {
         <div className={cs(s.ellipseLeftBox2, 'position-absolute')}>
           <div className={s.ellipseLeft} />
         </div>
-      </div>
-      <div className={cs(s.ballPosition, 'position-absolute')}>
-        <img src={Ball} alt="Ball" />
       </div>
     </>
   );
