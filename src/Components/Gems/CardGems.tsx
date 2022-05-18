@@ -28,7 +28,7 @@ export default function card({
       <div
         className={cs(
           s.cardServices,
-          'd-flex flex-column justify-content-between p-4 align-items-center mx-4 h-100',
+          'd-flex flex-column justify-content-between p-4 align-items-center mx-lg-4 mx-0 h-100',
         )}
       >
         <div className="position-relative mb-5">
@@ -36,13 +36,13 @@ export default function card({
           <img
             src={coverImg}
             alt="Rectangle1"
-            className={cs(s.classRectangle, '')}
+            className={cs(s.classRectangle, 'w-100')}
           />
         </div>
-        <div className="d-flex flex-row justify-content-start">
-          <h5 className="text-white">{title}</h5>
+        <div className="d-flex flex-lg-row flex-column justify-content-start align-items-center">
+          <h5 className="text-white text-center">{title}</h5>
           <div
-            className="d-flex flex-row justify-content-start align-items-center mt-1 mx-2"
+            className="d-flex flex-row justify-content-start align-items-center mt-1 mx-2 inline-block"
             style={{ width: '23px', height: '23px' }}
           >
             <img src={Vector3} alt="Vector3" />

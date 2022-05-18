@@ -7,7 +7,7 @@ export default function Discover(): ReactElement {
     <div className="container">
       <div className="d-flex flex-column justify-content-center align-items-center">
         <h4 className="text-white">Discover the latest #TOPNFT</h4>
-        <h6 className={cs(s.textFooter)}>
+        <h6 className={cs(s.textFooter, 'text-lg-start text-center')}>
           The NFT marketplace with everything for everyone
         </h6>
       </div>

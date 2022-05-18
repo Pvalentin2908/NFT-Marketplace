@@ -15,10 +15,10 @@ export default function Exclusive(): ReactElement {
             'col-12 col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start',
           )}
         >
-          <div className="text-white mt-5">
+          <div className="text-white mt-5 p-lg-0 p-2">
             Exclusive NFT for Digital and Real-world Assets
           </div>
-          <div className={cs(s.marginBottom64, 'text-white')}>
+          <div className={cs(s.marginBottom64, 'text-white p-lg-0 p-2')}>
             <h3>
               The world s first non-fungible token (NFT) marketplace for both
               digital and physical assets.

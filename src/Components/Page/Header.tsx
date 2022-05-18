@@ -41,7 +41,7 @@ export default function Header(): ReactElement {
               </form>
             </div>
           </div>
-          <div className=" d-flex flex-row justify-content-center align-items-center">
+          <div className=" d-flex flex-row justify-content-center text-lg-start text-center">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">

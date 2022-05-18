@@ -175,6 +175,7 @@
 .marginBottom128 {
   margin-bottom: 128px;
 }
+
 .marginBottom221 {
   margin-bottom: 221px;
 }
@@ -209,5 +210,26 @@
   .ellipseLeft {
     width: 100%;
     height: auto;
+  }
+
+  .ellipsGems {
+    position: absolute;
+    left: 36%;
+    right: 40%;
+    top: 90%;
+  }
+
+  .createButton2 {
+    background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+    color: white;
+    border: 10px;
+    border-radius: 90px;
+    width: 70%;
+    height: 50%;
+    padding: 10px;
+  }
+
+  .marginBottom221 {
+    margin-bottom: 120px;
   }
 }
