@@ -203,20 +203,49 @@
   }
   
   .ellipseRight {
-    width: 100%;
-    //height: auto;
+    background: #73e0a9;
+    opacity: 0.5;
+    filter: blur(209px);
+    height: 400px;
+    width: 400px;
   }
-  //
+  
+  .ellipseRightBox {
+    top: -40px;
+    right: 1%;
+  }
+  
   .ellipseLeft {
-    width: 100%;
-    height: auto;
+    background: #5b68df;
+    opacity: 0.5;
+    filter: blur(209px);
+    height: 500px;
+    width: 300px;
+  }
+  
+  .ellipseLeftBox {
+    top: 200%;
+    left: 1%;
+  }
+  
+  .ellipseRightBox2 {
+    top: 600%;
+    right: 1%;
+  }
+  
+  .ellipseLeftBox2 {
+    top: 800%;
+    left: 1%;
   }
 
-  .ellipsGems {
-    position: absolute;
-    left: 36%;
-    right: 40%;
-    top: 90%;
+  .ellipseRightBox3 {
+    top: 1000%;
+    right: 1%;
+  }
+  
+  .ellipseLeftBox3 {
+    top: 1200%;
+    left: 1%;
   }
 
   .createButton2 {

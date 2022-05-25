@@ -66,6 +66,12 @@ export default function Exclusive(): ReactElement {
         <div className={cs(s.ellipseLeftBox2, 'position-absolute')}>
           <div className={s.ellipseLeft} />
         </div>
+        <div className={cs(s.ellipseRightBox3, 'position-absolute')}>
+          <div className={s.ellipseRight} />
+        </div>
+        <div className={cs(s.ellipseLeftBox3, 'position-absolute')}>
+          <div className={s.ellipseLeft} />
+        </div>
       </div>
     </>
   );
