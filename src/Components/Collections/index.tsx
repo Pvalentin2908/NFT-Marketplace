@@ -1,7 +1,4 @@
 import React, { ReactElement } from 'react';
-import cs from 'classnames';
-
-import s from '../../pages/Home/style.module.scss';
 
 import CollectionCard from './CollectionCard';
 import { CollectionData } from './collectionData';

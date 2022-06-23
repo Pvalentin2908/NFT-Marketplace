@@ -9,17 +9,19 @@ import Picture2 from './assets/picture.png';
 export default function Create(): ReactElement {
   return (
     <div className="container">
-      <div className={cs(s.marginBottom64, 'text-white')}>
+      <div
+        className={cs(s.marginBottom64, 'text-white text-center text-lg-start')}
+      >
         <h3>Create and sell your NFTs</h3>
       </div>
       <div
         className={cs(
           s.marginBottom221,
-          'd-flex flex-row justify-content-between container',
+          'd-flex flex-column flex-lg-row justify-content-between container',
         )}
       >
-        <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">
-          <div className="w-50 h-50 justify-content-center align-items-center">
+        <div className="d-flex flex-column justify-content-center mx-lg-5 my-lg-5 mx-2 my-4 align-items-center">
+          <div className="d-flex flex-column w-50 h-50 justify-content-center align-items-center">
             <img src={Wallet} alt="Wallet" />
           </div>
           <h6 className="text-white font-16">Set up your wallet</h6>
@@ -30,8 +32,8 @@ export default function Create(): ReactElement {
             support.
           </div>
         </div>
-        <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">
-          <div className="w-50 h-50 justify-content-center align-items-center">
+        <div className="d-flex flex-column justify-content-center mx-lg-5 my-lg-5 mx-2 my-4 align-items-center">
+          <div className="d-flex flex-column w-50 h-50 justify-content-center align-items-center">
             <img src={Triangle} alt="Triangle" />
           </div>
           <h6 className="text-white font-16">Create your collection</h6>
@@ -42,8 +44,8 @@ export default function Create(): ReactElement {
             & banner images, and set a secondary sales fee.
           </div>
         </div>
-        <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">
-          <div className="w-50 h-50 justify-content-center align-items-center">
+        <div className="d-flex flex-column justify-content-center mx-lg-5 my-lg-5 mx-2 my-4 align-items-center">
+          <div className="d-flex flex-column w-50 h-50 justify-content-center align-items-center">
             <img src={Picture2} alt="Picture2" />
           </div>
           <h6 className="text-white font-16">Add your NFTs</h6>
@@ -53,8 +55,8 @@ export default function Create(): ReactElement {
             unlockable content.
           </div>
         </div>
-        <div className="d-flex flex-column justify-content-center mx-5 my-5 align-items-center">
-          <div className="w-50 h-50 justify-content-center align-items-center">
+        <div className="d-flex flex-column justify-content-center mx-lg-5 my-lg-5 mx-2 my-4 align-items-center">
+          <div className="d-flex flex-column w-50 h-50 justify-content-center align-items-center">
             <img src={Shop} alt="Shop" />
           </div>
           <h6 className="text-white font-16">List them for sale</h6>

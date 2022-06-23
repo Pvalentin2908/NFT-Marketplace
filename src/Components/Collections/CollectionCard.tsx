@@ -1,8 +1,6 @@
-import React, { ReactElement, useMemo } from 'react';
+import React, { ReactElement } from 'react';
 import cs from 'classnames';
 import s from '../../pages/Home/style.module.scss';
-import Rectangle6 from '../../pages/Home/assets/Rectangle6.png';
-import Ellipse2 from '../../pages/Home/assets/Ellipse2.png';
 import Vector2 from '../../pages/Home/assets/Vector2.png';
 
 type CollectionCardType = {
