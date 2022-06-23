@@ -1,0 +1,37 @@
+@import './variables';
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+$font-family-base: 'Roboto', sans-serif;
+
+:root {
+  --primary: #{$primary};
+  --primary-rgb: #{$primary-rgb};
+  --white: #{$white};
+  --light: #{$light};
+  --light-gray: #{$light-gray};
+  --light-rgb: #{$light-rgb};
+  --gray-500: #{$gray-500};
+  --gray-700: #{$gray-700};
+  --gray-800: #{$gray-800};
+  --black-200: #{$black-200};
+  --black-400: #{$black-400};
+  --black-gray-200: #{$black-gray-200};
+  --dark-blue: #{$dark-blue};
+  --purple: #{$purple};
+  --tertiary-500: #{$tertiary-500};
+  --aqua: #{$aqua};
+  --red: #{$red};
+  --danger: #{$danger};
+  --background-200: #{$background-200};
+  --background-700: #{$background-700};
+  --default-border-radius: #{$default-border-radius};
+  --font-weight-medium: #{$font-weight-medium};
+  --gray-300: #{$gray-300};
+  --warning-500: #{$warning-500};
+  --success-500: #{$success-500};
+  --backgrond-900: #{$background-900};
+  --gray-600: #{$gray-600};
+  --gray-400: #{$gray-400};
+  --gray-501: #{$gray-501};
+}
