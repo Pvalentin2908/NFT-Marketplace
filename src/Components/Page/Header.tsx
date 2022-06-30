@@ -6,6 +6,7 @@ import Logo from './assets/logo.png';
 import Search from './assets/search.svg';
 import Wallet from './assets/wallet-one.png';
 import Frame from './assets/Frame 1.svg';
+import SwitchTheme from '../SwitchTheme/SwitchTheme';
 
 export default function Header(): ReactElement {
   return (
@@ -81,6 +82,9 @@ export default function Header(): ReactElement {
                     </div>
                   </button>
                 </Nav.Link>
+                <div className="d-flex flex-row justify-content-center align-items-center mx-2">
+                  <SwitchTheme />
+                </div>
               </Nav>
             </Navbar.Collapse>
           </div>
