@@ -4,37 +4,45 @@
 }
 
 .walletButton {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
-  color: white;
+  background: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
+  color: var(--white);
   border: 10px;
   border-radius: 90px;
   padding: 1px 2px;
 }
 
 .fontHeader {
-  background: rgba(31, 29, 43, 0.12);
+  background: var(--black-background);
   backdrop-filter: blur(45px);
 }
 
 .cardFooter {
-  background: rgba(31, 29, 43, 0.1);
+  background: var(--black-background);
   backdrop-filter: blur(4px);
-  color: white;
+  color: var(--white);
   height: 100%;
   width: 100%;
 }
 
 .cardServices {
-  color: white;
+  color: var(--white);
   border-radius: 30px;
-  border: 2px solid rgba(229, 233, 246, 0.4);
+  border: 2px solid var(--light-grayish);
   width: 100%;
   align-self: center;
   position: relative;
 }
 
 .textFooter {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  background: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -42,18 +50,26 @@
 .borderSearch {
   border: 1px;
   border-radius: 90px;
-  border-color: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  border-color: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
 }
 
 .cardExclusive {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px var(--black));
   overflow: visible;
   margin-top: 220px;
 }
 
 .createButton {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
-  color: white;
+  background: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
+  color: var(--white);
   border: 10px;
   border-radius: 90px;
   min-width: 200px;
@@ -78,22 +94,26 @@
 }
 
 .created {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  background: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .cardCollections {
   border-radius: 31.2016px;
-  border: 2px solid rgba(229, 233, 246, 0.4);
+  border: 2px solid var(--light-grayish);
   width: 100%;
   position: relative;
 }
 
 .articleCard {
-  color: white;
+  color: var(--white);
   border-radius: 30px;
-  border: 2px solid rgba(229, 233, 246, 0.4);
+  border: 2px solid var(--light-grayish);
   align-self: center;
   position: relative;
   overflow: hidden;
@@ -101,15 +121,23 @@
 }
 
 .lineColor {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
+  background: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
   border-radius: 5px;
   width: 100%;
   height: 2px;
 }
 
 .createButton2 {
-  background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
-  color: white;
+  background: linear-gradient(
+    90.71deg,
+    var(--lime-green) 0%,
+    var(--soft-blue) 100%
+  );
+  color: var(--white);
   border: 10px;
   border-radius: 90px;
   width: 20%;
@@ -118,7 +146,7 @@
 }
 
 .ellipseRight {
-  background: #73e0a9;
+  background: var(--lime-green);
   opacity: 0.5;
   filter: blur(209px);
   height: 825px;
@@ -131,7 +159,7 @@
 }
 
 .ellipseLeft {
-  background: #5b68df;
+  background: var(--soft-blue);
   opacity: 0.5;
   filter: blur(209px);
   height: 925px;
@@ -185,7 +213,7 @@
 }
 
 .rectangle {
-  background: #252836;
+  background: var(--dark-grayish);
 }
 
 .radiusBottom {
@@ -201,38 +229,38 @@
   .createButton {
     margin-top: 20px;
   }
-  
+
   .ellipseRight {
-    background: #73e0a9;
+    background: var(--lime-green);
     opacity: 0.5;
     filter: blur(209px);
     height: 400px;
     width: 400px;
   }
-  
+
   .ellipseRightBox {
     top: -40px;
     right: 1%;
   }
-  
+
   .ellipseLeft {
-    background: #5b68df;
+    background: var(--soft-blue);
     opacity: 0.5;
     filter: blur(209px);
     height: 500px;
     width: 300px;
   }
-  
+
   .ellipseLeftBox {
     top: 200%;
     left: 1%;
   }
-  
+
   .ellipseRightBox2 {
     top: 600%;
     right: 1%;
   }
-  
+
   .ellipseLeftBox2 {
     top: 800%;
     left: 1%;
@@ -242,15 +270,19 @@
     top: 1000%;
     right: 1%;
   }
-  
+
   .ellipseLeftBox3 {
     top: 1200%;
     left: 1%;
   }
 
   .createButton2 {
-    background: linear-gradient(90.71deg, #73e0a9 0%, #5b68df 100%);
-    color: white;
+    background: linear-gradient(
+      90.71deg,
+      var(--lime-green) 0%,
+      var(--soft-blue) 100%
+    );
+    color: var(--white);
     border: 10px;
     border-radius: 90px;
     width: 70%;
