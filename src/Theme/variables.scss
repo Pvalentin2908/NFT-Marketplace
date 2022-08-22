@@ -1,0 +1,88 @@
+// Colors
+$primary: #3A4AFF;
+$primary-rgb: 58,74,255;
+$white: white;
+$light: #E8E8E8;
+$whisper: #EEE;
+$light-rgb: 232, 232, 232;
+$light-gray: #757575;
+$gray-500: #404E64;
+$gray-700: #202C48;
+$gray-800: #333;
+$gray-900: #262626;
+$black-gray-100: #5B647E;
+$black-gray-200: #79829C;
+$dark-gray: #A7A7A7;
+$black-200: #191f2a;
+$black-400: #333;
+$black-500: #121212;
+$dark-blue: #29324C;
+$purple: #7E20FF;
+$tertiary-500: #6A1ED7;
+$aqua: #00D5FF;
+$red: #EB5757;
+$danger: $red;
+$background-200: #515A74;
+$background-700: #1F2842;
+$gray-300: #F5F5F5;
+$warning-500: #E58004;
+$warning: #E58004;
+$success-500: #4CBA2E;
+$background-900: #0B142E;
+$gray-600: #BFBFBF;
+$gray-400: #F0F0F0;
+$gray-501: #D9D9D9;
+$lime-green: #73e0a9;
+$soft-blue: #5b68df;
+$black-background: rgba(31, 29, 43, 0.12);
+$light-grayish: rgba(229, 233, 246, 0.4);
+$dark-grayish: #252836;
+$black: rgba(0, 0, 0, 0.25);
+$background: #1F1D2B;
+
+
+// Variables
+$default-border-radius: 8px;
+$font-weight-medium: 500;
+$alert-bg-level: 0;
+$alert-border-level: 0;
+$alert-color-level: -10;
+
+$spacer: 1rem !default;
+$spacers: (
+        0: 0,
+        1: (
+                $spacer * 0.25
+        ),
+        2: (
+                $spacer * 0.5
+        ),
+        3: (
+                $spacer * 0.75
+        ),
+        4: $spacer,
+        5: (
+                $spacer * 1.25
+        ),
+        6: (
+                $spacer * 1.5
+        ),
+        7: (
+                $spacer * 1.75
+        ),
+        8: (
+                $spacer * 2
+        ),
+        9: (
+                $spacer * 2.25
+        ),
+        10: (
+                $spacer * 2.5
+        ),
+        11: (
+                $spacer * 2.75
+        ),
+        12: (
+                $spacer * 3
+        )
+) !default;
