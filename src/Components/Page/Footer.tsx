@@ -25,137 +25,139 @@ export default function Footer(): ReactElement {
             for both digital and physical assets
           </div>
         </div>
-        <div className="d-flex flex-column justify-content-between py-4 px-4 text-lg-start text-center">
-          <div className="mb-2">
-            <b className={cs(s.textFooter)}>Company</b>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              About
-            </a>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Careers
-            </a>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Ventures
-            </a>
-          </div>
-          <div className="mb-1">
-            <a href="#link" className="text-white decoration-none">
-              Grants
-            </a>
-          </div>
-        </div>
-        <div className="d-flex flex-column justify-content-start text-lg-start text-center  py-4 px-4">
-          <div className="mb-2">
-            <b className={cs(s.textFooter)}>Stats</b>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Rankings
-            </a>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Activity
-            </a>
-          </div>
-        </div>
-        <div className="d-flex flex-column justify-content-between text-lg-start text-center py-4 px-4">
-          <div className="mb-2">
-            <b className={cs(s.textFooter)}>Resources</b>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Help center
-            </a>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Gas-Free Marketplace
-            </a>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Blog
-            </a>
-          </div>
-          <div className="mb-1 text-white">
-            <a href="#link" className="text-white decoration-none">
-              Newsletters
-            </a>
-          </div>
-        </div>
-        <div className="d-flex flex-column justify-content-between align-items-start  py-4 px-4">
-          <div className="mb-2 w-100 text-lg-start text-center">
-            <b className={cs(s.textFooter, 'mx-4')}>Follow us on</b>
-          </div>
-          <div className="d-flex flex-row justify-content-between">
-            <div
-              className={cs(
-                s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-center mx-4',
-              )}
-            >
-              <a href="#link" className="text-white">
-                <img src={Vector} alt="logo" />
+        <div className="d-flex flex-lg-row flex-column justify-content-start">
+          <div className="d-flex flex-column justify-content-between py-4 px-4 text-lg-start text-center">
+            <div className="mb-2">
+              <b className={cs(s.textFooter)}>Company</b>
+            </div>
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                About
               </a>
             </div>
-            <div
-              className={cs(
-                s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
-              )}
-            >
-              <a href="#link" className="text-white">
-                <img src={Twitter} alt="logo" />
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Careers
               </a>
             </div>
-            <div
-              className={cs(
-                s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
-              )}
-            >
-              <a href="#link" className="text-white">
-                <img src={Youtube} alt="logo" />
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Ventures
+              </a>
+            </div>
+            <div className="mb-1">
+              <a href="#link" className="text-white decoration-none">
+                Grants
               </a>
             </div>
           </div>
-          <div className="d-flex flex-row justify-content-between mt-2">
-            <div
-              className={cs(
-                s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
-              )}
-            >
-              <a href="#link" className="text-white">
-                <img src={Facebook} alt="logo" />
+          <div className="d-flex flex-column justify-content-start text-lg-start text-center  py-4 px-4">
+            <div className="mb-2">
+              <b className={cs(s.textFooter)}>Stats</b>
+            </div>
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Rankings
               </a>
             </div>
-            <div
-              className={cs(
-                s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
-              )}
-            >
-              <a href="#link" className="text-white">
-                <img src={Instagram} alt="logo" />
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Activity
               </a>
             </div>
-            <div
-              className={cs(
-                s.cardServices,
-                'd-flex flex-row justify-content-between p-2 align-items-center mx-4',
-              )}
-            >
-              <a href="#link" className="text-white">
-                <img src={TikTok} alt="logo" />
+          </div>
+          <div className="d-flex flex-column justify-content-between text-lg-start text-center py-4 px-4">
+            <div className="mb-2">
+              <b className={cs(s.textFooter)}>Resources</b>
+            </div>
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Help center
               </a>
+            </div>
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Gas-Free Marketplace
+              </a>
+            </div>
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Blog
+              </a>
+            </div>
+            <div className="mb-1 text-white">
+              <a href="#link" className="text-white decoration-none">
+                Newsletters
+              </a>
+            </div>
+          </div>
+          <div className="d-flex flex-column justify-content-between align-items-start  py-4 px-4">
+            <div className="mb-2 w-100 text-lg-start text-center">
+              <b className={cs(s.textFooter, 'mx-4')}>Follow us on</b>
+            </div>
+            <div className="d-flex flex-row justify-content-between">
+              <div
+                className={cs(
+                  s.cardServices,
+                  'd-flex flex-row justify-content-between p-2 align-items-center mx-4',
+                )}
+              >
+                <a href="#link" className="text-white">
+                  <img src={Vector} alt="logo" />
+                </a>
+              </div>
+              <div
+                className={cs(
+                  s.cardServices,
+                  'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
+                )}
+              >
+                <a href="#link" className="text-white">
+                  <img src={Twitter} alt="logo" />
+                </a>
+              </div>
+              <div
+                className={cs(
+                  s.cardServices,
+                  'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
+                )}
+              >
+                <a href="#link" className="text-white">
+                  <img src={Youtube} alt="logo" />
+                </a>
+              </div>
+            </div>
+            <div className="d-flex flex-row justify-content-between mt-2">
+              <div
+                className={cs(
+                  s.cardServices,
+                  'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
+                )}
+              >
+                <a href="#link" className="text-white">
+                  <img src={Facebook} alt="logo" />
+                </a>
+              </div>
+              <div
+                className={cs(
+                  s.cardServices,
+                  'd-flex flex-row justify-content-between p-2 align-items-start mx-4',
+                )}
+              >
+                <a href="#link" className="text-white">
+                  <img src={Instagram} alt="logo" />
+                </a>
+              </div>
+              <div
+                className={cs(
+                  s.cardServices,
+                  'd-flex flex-row justify-content-between p-2 align-items-center mx-4',
+                )}
+              >
+                <a href="#link" className="text-white">
+                  <img src={TikTok} alt="logo" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
